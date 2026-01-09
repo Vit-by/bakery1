@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First site </title>
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
-</body> 
+<body> 
 <header>
    <nav>
     <a href="#">
@@ -13,33 +14,31 @@
 
     </a>
      <ul>
-       <li><a href="#">Наші традиції</a></li>
-       <li><a href="#">Шеф-кухарі</a></li>
-       <li><a href="#">Формати</a></li> 
-       <li><a href="#">Контакти</a></li>
+       <li><a class="link" href="#newtraditionssection">Наші традиції</a></li>
+       <li><a class="link" href="#Ourchefssection">Шеф-кухарі</a></li>
+       <li><a class="link" href="#formatssection">Формати</a></li> 
+       <li><a class="link" href="#invitesection">Контакти</a></li>
      </ul>
    </nav> 
-   <button type="submit">Замовити дзвінок</button>
+   <button class="callbutton" type="submit">Замовити дзвінок</button>
 </header>
 <main>
-    <section>
-    <h1>Сучасня пекарня</h1>
+    <section id="modernbakerysection">
+    <h1 class="modernbakerytxt"><span class="accent">Сучасна</span>пекарня</h1>
     </section>
-    <section>
-        <ul>
+    <section id="newtraditionssection">
+        <ul class="advantageslist">         
             <li>Великий попит на ринку</li>
             <li>Доступні за бюджетом формати</li>
             <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>
-        Новий формат традицій 
-        </h2>
-        <p><span>shop bakery </span>— це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та натуральність інгредієнтів.</p>
+        <h2 class="sectiontitle"> Новий формат традицій </h2>
+     <p><span>shop bakery </span>— це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та натуральність інгредієнтів.</p>
          <p>Ми працюємо як найвідоміші мережі — <span>5 хвилин і замовлення готове</span> . А ще у наших пекарень стильний дизайн та висока якість обслуговування!</p> 
          <img src="./images/bakermanf.jpg" alt="bakermanfirst">
     </section>
-    <section>
-        <h2>Наші найкращі шеф-кухарі</h2>
+    <section id="Ourchefssection">
+        <h2 class="sectiontitle">Наші найкращі <span class="accent">шеф-кухарі</span></h2>
         <ul>
             <li> 
                 <article>
@@ -59,8 +58,8 @@
        
         
     </section>
-    <section>
-        <h2>Формати</h2>
+    <section id="formatssection">
+        <h2 class="sectiontitle">Формати</h2>
         <ul>
             <li>  
                 <article>
@@ -78,20 +77,20 @@
         
        
     </section>
-    <section>
-        <h2>Приєднуйся до мережі пекарень</h2>
+    <section id="invitesection">
+        <h2 class="sectiontitle">Приєднуйся до мережі пекарень</h2>
     </section>
 </main>
 <footer> 
-<a href="#">
+<a href="/">
    <img src="./images/logo.svg" alt="logo">
 </a>
 <nav>
      <ul>
-       <li><a href="#">Наші традиції</a></li>
-       <li><a href="#">Шеф-кухарі</a></li>
-       <li><a href="#">Формати</a></li> 
-       <li><a href="#">Контакти</a></li>
+       <li><a href="#newtraditionssection">Наші традиції</a></li>
+       <li><a href="#Ourchefssection">Шеф-кухарі</a></li>
+       <li><a href="#formatssection">Формати</a></li> 
+       <li><a href="#invitesection">Контакти</a></li>
      </ul>
    </nav> 
 <address>
@@ -108,4 +107,5 @@
     <p>© 2023 Дані захищені</p>
 </address>
 </footer>
+</body>
 </html>
