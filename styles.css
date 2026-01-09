@@ -1,0 +1,44 @@
+:root {
+    --clrgreen:green;
+    --clrwhite:white;
+    --clrblack:black;
+}
+
+
+ul{    list-style-type: none;}
+.link {color: var(--clrgreen);}
+.link:hover{
+    color: #ff5733;
+}
+.link:hover{
+    color: #ff5733;}
+
+    /* buttons */
+
+.callbutton {
+    color : var(--clrwhite);;
+    border: 2px solid var(--clrgreen);;
+    background-color: var(--clrgreen);;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.callbutton:hover {
+    color: var(--clrgreen);;
+    background-color: transparent;
+    border-color:var(--clrgreen);;
+    text
+}
+.modernbakerytxt {
+   color: white ;
+}
+.modernbakerytxt  .accent {
+    color: var(--clrgreen);;
+}
+.advantageslist{
+    color: var(--clrwhite);;
+background-color: var(--clrgreen);;
+}s
+.sectiontitle {
+    color: black;}
+.sectiontitle .accent {color:var(--clrgreen);}
