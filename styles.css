@@ -1,44 +1,132 @@
+/* GENERAL STYLES */
+
 :root {
-    --clrgreen:green;
-    --clrwhite:white;
-    --clrblack:black;
+    --clrgreen: green;
+    --clrwhite: white;
+    --clrblack: black;
 }
 
-
-ul{    list-style-type: none;}
-.link {color: var(--clrgreen);}
-.link:hover{
-    color: #ff5733;
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
-.link:hover{
-    color: #ff5733;}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color:  var(--clrblack);
+}
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color:  var(--clrblack);
+}
 
-    /* buttons */
+/* HEADER   */
+ul {
+    list-style-type: none;
+}
+
+.link {
+    color: var(--clrwhite);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.link:hover {
+    color: var(--clrgreen);
+    font-weight: 600;
+}
+
 
 .callbutton {
-    color : var(--clrwhite);;
-    border: 2px solid var(--clrgreen);;
-    background-color: var(--clrgreen);;
+    color: var(--clrwhite);
+    border: 2px solid var(--clrgreen);
+    background-color: var(--clrgreen);
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
+    font-weight: 600;
 }
+
 .callbutton:hover {
-    color: var(--clrgreen);;
+    color: var(--clrgreen);
     background-color: transparent;
-    border-color:var(--clrgreen);;
-    text
+    border-color: var(--clrgreen);
+    text-decoration: none;
 }
+
+/* MAIN  */
+
+/* FIRST SECTION */
+
 .modernbakerytxt {
-   color: white ;
+    color: white;
+
+    font-weight: 900;
+    font-size: 128px;
+    text-align: center;
 }
-.modernbakerytxt  .accent {
-    color: var(--clrgreen);;
+
+.modernbakerytxt .accent {
+    color: var(--clrgreen);
 }
-.advantageslist{
-    color: var(--clrwhite);;
-background-color: var(--clrgreen);;
-}s
-.sectiontitle {
-    color: black;}
-.sectiontitle .accent {color:var(--clrgreen);}
+
+.advantageslist {
+    color: var(--clrwhite);
+    background-color: var(--clrgreen);
+    font-size: 20px;
+}
+
+
+
+.firstsectiontxt-pone span{
+    color: var(--clrgreen);
+    text-transform: uppercase;
+    font-weight: 600;
+   }
+.firstsectiontxt-ptwo span{
+    color: var(--clrgreen);
+    font-weight: 600;
+   }
+
+
+   /* CHEFS-SECTION-SECOND */
+.sectiontitle .accent {
+    color: var(--clrgreen);
+}
+
+
+/* FORMATS-SECTION-THIRD */
+.formatstxt {
+    
+    font-size: 14px;
+   
+}
+
+
+/* INVITE-SECTION-FOURTH */
+
+
+
+
+
+
+/* FOOTER */
+.adresslinks a {
+    color: var(--clrwhite);
+
+}
+.adresslinks a:hover {
+    color: var(--clrgreen);
+    font-weight: 600;
+}
+.privacy-policy a {
+    color: var(--clrwhite);
+    text-decoration: none;
+
+}
+.copyright{
+    color: brown;
+}
